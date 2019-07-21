@@ -15,6 +15,7 @@ fun main() {
     val jettyServer = app.asServer(Jetty(9000)).start()
 
     val request = Request(Method.GET, "http://localhost:9000").query("name", "mattTea")
+    println(request)
 
     val client = ApacheClient()
 

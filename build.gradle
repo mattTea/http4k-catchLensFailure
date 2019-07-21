@@ -14,6 +14,7 @@ dependencies {
     compile group: "org.http4k", name: "http4k-core", version: "3.163.0"
     compile group: "org.http4k", name: "http4k-server-jetty", version: "3.163.0"
     compile group: "org.http4k", name: "http4k-client-apache", version: "3.163.0"
+    compile group: "org.http4k", name: "http4k-client-okhttp", version: "3.163.0"
 
     testCompile "com.willowtreeapps.assertk:assertk-jvm:0.18"
     
