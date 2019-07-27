@@ -30,11 +30,7 @@ fun PlaygroundApp(): HttpHandler = CatchLensFailure.then(
         "/products/{id:.*}" bind GET to { request: Request ->
             val id = Path.of("id")
             val pathId = id.extract(request)
-            println("pathId: $pathId")
-            println(products[0].first)
-
             var responseBody = request.toString()
-            println(responseBody)
 
             for (product in products) if (product.first.toString() == pathId) {
                 responseBody += product.second

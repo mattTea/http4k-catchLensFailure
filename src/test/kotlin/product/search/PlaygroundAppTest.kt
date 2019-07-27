@@ -16,6 +16,13 @@ object PlaygroundServerTest : Spek({
     val client = OkHttp()
     val server = PlaygroundServer(0)
 
+    val productId = "1234"
+    val productNameResponse = "Magic trousers"
+
+    val secondProductId = "1235"
+    val secondProductNameResponse = "Shiny saucepan"
+
+
     beforeEachTest {
         server.start()
     }
@@ -32,22 +39,23 @@ object PlaygroundServerTest : Spek({
         }
 
         it("responds to '/products?productid'") {
-            val queryParam = "1234"
-            val response = client(Request(GET, "http://localhost:${server.port()}/products?productid=$queryParam"))
-            assertThat(response.body.toString()).contains(queryParam)
+            val response = client(Request(GET, "http://localhost:${server.port()}/products?productid=$productId"))
+            assertThat(response.body.toString()).contains(productId)
         }
 
-        it("responds to '/products/:id'") {
-            val productId = "1234"
+        it("responds to '/products/:id' and returns product id") {
             val response = client(Request(GET, "http://localhost:${server.port()}/products/$productId"))
             assertThat(response.body.toString()).contains(productId)
         }
 
-        it("returns product description") {
-            val productId = "1234"
-            val productNameResponse = "Magic trousers"
+        it("responds to '/products/1234' and returns correct product description") {
             val response = client(Request(GET, "http://localhost:${server.port()}/products/$productId"))
             assertThat(response.body.toString()).contains(productNameResponse)
+        }
+
+        it("responds to '/products/1235' and returns correct product description") {
+            val response = client(Request(GET, "http://localhost:${server.port()}/products/$secondProductId"))
+            assertThat(response.body.toString()).contains(secondProductNameResponse)
         }
 
     }
