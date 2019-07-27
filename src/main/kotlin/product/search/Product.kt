@@ -1,8 +1,6 @@
 package product.search
 
-class Product(val id: Int, val name: String) {
-
-}
+class Product(val id: Int, val name: String)
 
 
 // 1. Return product details from hardcoded data

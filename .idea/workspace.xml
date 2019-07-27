@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef97dc09-2fd8-46e2-8c91-0ae515c12136" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/product/search/PlaygroundAppKt$PlaygroundApp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/product/search/PlaygroundAppKt$PlaygroundApp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/product/search/PlaygroundAppKt$PlaygroundApp$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/product/search/PlaygroundAppKt$PlaygroundApp$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/product/search/PlaygroundAppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/product/search/PlaygroundAppKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/product/search/PlaygroundServerTest$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/product/search/PlaygroundServerTest$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/product/search/PlaygroundServerTest$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/product/search/PlaygroundServerTest$1$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/product/search/PlaygroundServerTest$1$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/product/search/PlaygroundServerTest$1$3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/product/search/PlaygroundServerTest$1$3$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/product/search/PlaygroundServerTest$1$3$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/product/search/PlaygroundServerTest$1$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/product/search/PlaygroundServerTest$1$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/product/search/PlaygroundServerTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/product/search/PlaygroundServerTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/product/search/PlaygroundServerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/product/search/PlaygroundServerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/product/search/PlaygroundApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/product/search/PlaygroundApp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/product/search/Product.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/product/search/Product.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/product/search/PlaygroundAppTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/product/search/PlaygroundAppTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -92,7 +106,7 @@
             <entry file="file://$PROJECT_DIR$/src/main/kotlin/product/search/Product.kt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="165">
-                  <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
                 </state>
               </provider>
             </entry>
@@ -101,7 +115,7 @@
             <entry file="file://$PROJECT_DIR$/src/test/kotlin/product/search/PlaygroundAppTest.kt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="495">
-                  <caret line="41" column="2" lean-forward="true" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+                  <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -109,7 +123,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/kotlin/product/search/ProductTest.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
+                <state relative-caret-position="135">
                   <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
                   <folding>
                     <element signature="e#24#173#0" expanded="true" />
@@ -134,8 +148,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/kotlin/product/search/ProductListTest.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+                <state relative-caret-position="55">
+                  <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
                   <folding>
                     <element signature="e#24#500#0" expanded="true" />
                   </folding>
@@ -146,8 +160,29 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/kotlin/product/search/PlaygroundApp.kt">
               <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+                  <folding>
+                    <element signature="e#24#475#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/build.gradle">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="228">
+                  <caret line="17" column="82" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.json">
+              <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="165">
-                  <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="49" />
+                  <caret line="11" column="1" selection-end-line="11" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -178,6 +213,9 @@
     <findStrings>
       <find>fun main</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -191,15 +229,17 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/Product.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/ProductTest.kt" />
         <option value="$PROJECT_DIR$/Problem.md" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/product/search/ProductList.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/product/search/ProductTest.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/product/search/Product.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/product/search/Main.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/product/search/ProductListTest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/product/search/Playground.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/product/search/ProductList.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/product/search/Product.kt" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.json" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/product/search/PlaygroundApp.kt" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.kts" />
         <option value="$PROJECT_DIR$/src/test/kotlin/product/search/PlaygroundAppTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/product/search/PlaygroundApp.kt" />
       </list>
     </option>
   </component>
@@ -309,40 +349,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CatchLensFailure Example http4k" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.http4k:http4k-core:3.163.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="CatchLensFailure Example http4k" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.http4k:http4k-core:3.163.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="http4k-core-3.163.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CatchLensFailure Example http4k" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.http4k:http4k-core:3.163.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="http4k-core-3.163.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="http4k" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CatchLensFailure Example http4k" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.http4k:http4k-core:3.163.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="http4k-core-3.163.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="http4k" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CatchLensFailure Example http4k" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.http4k:http4k-core:3.163.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="http4k-core-3.163.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="http4k" type="462c0819:PsiDirectoryNode" />
-              <item name="lens" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -358,6 +364,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="kotlin&#10;JSON" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -422,19 +429,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="product.search.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="CatchLensFailure_Example_http4k_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="product.search.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PlaygroundServerTest" type="org.spekframework.spek2-jvm" factoryName="Spek 2 - JVM" temporary="true" nameIsGenerated="true">
       <module name="CatchLensFailure_Example_http4k_test" />
       <option name="passParentEnvs" value="true" />
@@ -448,13 +442,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server" type="org.spekframework.spek2-jvm" factoryName="Spek 2 - JVM" temporary="true" nameIsGenerated="true">
+      <module name="CatchLensFailure_Example_http4k_test" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="" />
+      <option name="programParameters" value="" />
+      <option name="path" value="cHJvZHVjdA==/c2VhcmNo/UGxheWdyb3VuZFNlcnZlclRlc3Q=/U2VydmVy" />
+      <option name="vmParameters" value="" />
+      <option name="alternativeJrePath" value="" />
+      <option name="alternativeJrePathEnabled" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spek 2 - JVM.PlaygroundServerTest" />
+        <item itemvalue="Spek 2 - JVM.Server" />
         <item itemvalue="JUnit.All in CatchLensFailure_Example_http4k_test (1)" />
         <item itemvalue="JUnit.All in CatchLensFailure_Example_http4k_test" />
         <item itemvalue="JUnit.All in CatchLensFailure_Example_http4k_test (3)" />
-        <item itemvalue="Kotlin.product.search.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -485,50 +492,59 @@
       <workItem from="1563975292234" duration="21000" />
       <workItem from="1564040394559" duration="2212000" />
       <workItem from="1564126991694" duration="1275000" />
-      <workItem from="1564218597787" duration="849000" />
+      <workItem from="1564218597787" duration="12231000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_CatchLensFailure_Example_http4k_test - 2019.07.23 at 22h 01m 18s.xml">
-      <configuration name="All in CatchLensFailure_Example_http4k_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_CatchLensFailure_Example_http4k_test - 2019.07.23 at 22h 01m 56s.xml">
-      <configuration name="All in CatchLensFailure_Example_http4k_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_CatchLensFailure_Example_http4k_test - 2019.07.23 at 22h 04m 32s.xml">
-      <configuration name="All in CatchLensFailure_Example_http4k_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_CatchLensFailure_Example_http4k_test - 2019.07.23 at 22h 08m 00s.xml">
-      <configuration name="All in CatchLensFailure_Example_http4k_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_CatchLensFailure_Example_http4k_test - 2019.07.23 at 22h 08m 28s.xml">
-      <configuration name="All in CatchLensFailure_Example_http4k_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_CatchLensFailure_Example_http4k_test - 2019.07.23 at 22h 09m 43s.xml">
-      <configuration name="All in CatchLensFailure_Example_http4k_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_CatchLensFailure_Example_http4k_test - 2019.07.23 at 22h 10m 25s.xml">
-      <configuration name="All in CatchLensFailure_Example_http4k_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_CatchLensFailure_Example_http4k_test_(1) - 2019.07.25 at 10h 16m 08s.xml">
-      <configuration name="All in CatchLensFailure_Example_http4k_test (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlaygroundServerTest - 2019.07.27 at 13h 02m 50s.xml">
+    <history-entry file="PlaygroundServerTest - 2019.07.27 at 18h 11m 12s.xml">
       <configuration name="PlaygroundServerTest" configurationId="org.spekframework.spek2-jvm" />
     </history-entry>
-    <history-entry file="PlaygroundServerTest - 2019.07.27 at 13h 06m 53s.xml">
+    <history-entry file="PlaygroundServerTest - 2019.07.27 at 18h 12m 11s.xml">
+      <configuration name="PlaygroundServerTest" configurationId="org.spekframework.spek2-jvm" />
+    </history-entry>
+    <history-entry file="PlaygroundServerTest - 2019.07.27 at 18h 12m 45s.xml">
+      <configuration name="PlaygroundServerTest" configurationId="org.spekframework.spek2-jvm" />
+    </history-entry>
+    <history-entry file="PlaygroundServerTest - 2019.07.27 at 18h 12m 48s.xml">
+      <configuration name="PlaygroundServerTest" configurationId="org.spekframework.spek2-jvm" />
+    </history-entry>
+    <history-entry file="PlaygroundServerTest - 2019.07.27 at 18h 13m 21s.xml">
+      <configuration name="PlaygroundServerTest" configurationId="org.spekframework.spek2-jvm" />
+    </history-entry>
+    <history-entry file="PlaygroundServerTest - 2019.07.27 at 18h 15m 15s.xml">
+      <configuration name="PlaygroundServerTest" configurationId="org.spekframework.spek2-jvm" />
+    </history-entry>
+    <history-entry file="PlaygroundServerTest - 2019.07.27 at 18h 22m 05s.xml">
+      <configuration name="PlaygroundServerTest" configurationId="org.spekframework.spek2-jvm" />
+    </history-entry>
+    <history-entry file="PlaygroundServerTest - 2019.07.27 at 18h 22m 48s.xml">
+      <configuration name="PlaygroundServerTest" configurationId="org.spekframework.spek2-jvm" />
+    </history-entry>
+    <history-entry file="PlaygroundServerTest - 2019.07.27 at 18h 34m 31s.xml">
+      <configuration name="PlaygroundServerTest" configurationId="org.spekframework.spek2-jvm" />
+    </history-entry>
+    <history-entry file="PlaygroundServerTest - 2019.07.27 at 18h 34m 53s.xml">
       <configuration name="PlaygroundServerTest" configurationId="org.spekframework.spek2-jvm" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55324000" />
+    <option name="totallyTimeSpent" value="66706000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14520743" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14520743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -538,10 +554,10 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.335958" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39895013" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32939634" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.2673575" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.21549894" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
@@ -568,13 +584,6 @@
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.willowtreeapps.assertk/assertk-jvm/0.18/e86c69e61d905907eb80e951e5cc86fca73e683f/assertk-jvm-0.18.jar!/assertk/assertions/StringKt.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Problem.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -591,40 +600,6 @@
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#24#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/product/search/Product.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/product/search/ProductTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="e#24#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/product/search/ProductList.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/product/search/ProductListTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#24#500#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -657,17 +632,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/product/search/PlaygroundApp.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/product/search/ProductTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="e#24#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/product/search/Product.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="49" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/product/search/ProductList.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/product/search/ProductListTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="e#24#500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="82" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-core/3.165.0/e41a50692458d61643475c63a273fba072339b5/http4k-core-3.165.0-sources.jar!/org/http4k/lens/body.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.kts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/product/search/PlaygroundApp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#24#475#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/product/search/PlaygroundAppTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="41" column="2" lean-forward="true" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
         </state>
       </provider>
     </entry>
