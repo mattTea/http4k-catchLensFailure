@@ -21,7 +21,6 @@ fun PlaygroundApp(): HttpHandler = CatchLensFailure.then(
         "/ping" bind GET to { _: Request -> Response(OK) },
         "/products" bind GET to { request: Request ->
             val productId = Query.optional("productid")(request)
-            println("Product ID: ${productId}")
             Response(OK).body(productId.toString())
         }
     )

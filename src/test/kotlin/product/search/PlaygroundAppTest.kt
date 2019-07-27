@@ -30,10 +30,10 @@ object PlaygroundServerTest : Spek({
             assertThat(response.status).isEqualTo(OK)
         }
 
-        it("responds to '/products/:id'") {
+        it("responds to '/products?productid'") {
             val queryParam = "1234"
             val response = client(Request(GET, "http://localhost:${server.port()}/products?productid=$queryParam"))
-            assertThat(response.body).isEqualTo(queryParam)
+            assertThat(response.body.toString()).isEqualTo(queryParam)
         }
 
     }
