@@ -6,8 +6,8 @@ import assertk.assertions.isEqualTo
 import org.http4k.client.OkHttp
 import org.http4k.core.Method.GET
 import org.http4k.core.Request
+import org.http4k.core.Status.Companion.NOT_FOUND
 import org.http4k.core.Status.Companion.OK
-import org.http4k.lens.Path
 import org.spekframework.spek2.Spek
 import org.spekframework.spek2.style.specification.describe
 
@@ -56,6 +56,11 @@ object PlaygroundServerTest : Spek({
         it("responds to '/products/1235' and returns correct product description") {
             val response = client(Request(GET, "http://localhost:${server.port()}/products/$secondProductId"))
             assertThat(response.body.toString()).contains(secondProductNameResponse)
+        }
+
+        it("returns 'Product not found' for incorrect productId") {
+            val notFoundResponse = client(Request(GET, "http://localhost:${server.port()}/products/unknown-product"))
+            assertThat(notFoundResponse.status).isEqualTo(NOT_FOUND)
         }
 
     }
