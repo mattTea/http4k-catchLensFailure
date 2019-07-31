@@ -44,3 +44,5 @@ fun PlaygroundApp(): HttpHandler = CatchLensFailure.then(
         }
     )
 )
+
+//TODO implement CatchLensFailure as per merchandiser to understand behaviour

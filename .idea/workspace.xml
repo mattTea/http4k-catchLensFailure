@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef97dc09-2fd8-46e2-8c91-0ae515c12136" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/product/search/Product.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/product/search/PlaygroundAppKt$PlaygroundApp$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/product/search/PlaygroundAppKt$PlaygroundApp$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/product/search/PlaygroundApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/product/search/PlaygroundApp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/product/search/Products.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/product/search/Products-old.kt" afterDir="false" />
-    </list>
+    <list default="true" id="ef97dc09-2fd8-46e2-8c91-0ae515c12136" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -105,7 +99,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/kotlin/product/search/PlaygroundAppTest.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="660">
+                <state relative-caret-position="251">
                   <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
                 </state>
               </provider>
@@ -118,7 +112,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/kotlin/product/search/PlaygroundApp.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
+                <state relative-caret-position="285">
                   <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
                 </state>
               </provider>
@@ -434,14 +428,11 @@
       <workItem from="1564471375078" duration="624000" />
       <workItem from="1564481623097" duration="598000" />
       <workItem from="1564565069885" duration="2572000" />
-      <workItem from="1564599152730" duration="5488000" />
+      <workItem from="1564599152730" duration="5837000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_CatchLensFailure_Example_http4k_test - 2019.07.31 at 21h 20m 56s.xml">
-      <configuration name="All in CatchLensFailure_Example_http4k_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_CatchLensFailure_Example_http4k_test - 2019.07.31 at 21h 21m 38s.xml">
       <configuration name="All in CatchLensFailure_Example_http4k_test" configurationId="JUnit" />
     </history-entry>
@@ -469,9 +460,12 @@
     <history-entry file="All_in_CatchLensFailure_Example_http4k_test - 2019.07.31 at 21h 41m 48s.xml">
       <configuration name="All in CatchLensFailure_Example_http4k_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_CatchLensFailure_Example_http4k_test - 2019.07.31 at 21h 48m 59s.xml">
+      <configuration name="All in CatchLensFailure_Example_http4k_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89297000" />
+    <option name="totallyTimeSpent" value="89646000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -484,9 +478,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23819743" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1981402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -495,13 +488,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.335958" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.335958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39895013" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32939634" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.2673575" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.21549894" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.324147" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -637,14 +630,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/product/search/PlaygroundAppTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
+        <state relative-caret-position="251">
           <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/product/search/PlaygroundApp.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="285">
           <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
         </state>
       </provider>
