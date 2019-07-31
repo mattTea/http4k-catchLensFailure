@@ -1,12 +1,9 @@
 package product.search
 
-import org.http4k.core.HttpHandler
+import org.http4k.core.*
 import org.http4k.core.Method.GET
-import org.http4k.core.Request
-import org.http4k.core.Response
 import org.http4k.core.Status.Companion.NOT_FOUND
 import org.http4k.core.Status.Companion.OK
-import org.http4k.core.then
 import org.http4k.filter.ServerFilters.CatchLensFailure
 import org.http4k.lens.Path
 import org.http4k.lens.Query
@@ -20,7 +17,7 @@ fun PlaygroundServer(port: Int): Http4kServer = PlaygroundApp().asServer(Jetty(p
 
 fun PlaygroundApp(): HttpHandler = CatchLensFailure.then(
     routes(
-        "/ping" bind GET to { _: Request -> Response(OK) },
+        "/ping" bind GET to { Response(OK) },
 
         "/products" bind GET to { request: Request ->
             val productId = Query.optional("productid")(request)
@@ -28,26 +25,22 @@ fun PlaygroundApp(): HttpHandler = CatchLensFailure.then(
             Response(OK).body(productId.toString())
         },
 
-        "/products/{id:.*}" bind GET to { request: Request ->
+        "/products/{id}" bind GET to { request: Request ->
             val id = Path.of("id")
             val pathId = id.extract(request)
-            var responseBody = request.toString()
-            val matchedProduct = mutableListOf<Pair<Int, String>>()
+            val matchedProduct = mutableListOf<Product>()
             var response : Response
 
-            for (product in products) if (product.first.toString() == pathId) {
+            for (product in products) if (product.id.toString() == pathId) {
                 matchedProduct.add(product)
-                responseBody += product.second
             }
 
             response = if (matchedProduct.size == 0) {
                 Response(NOT_FOUND)
             } else {
-                Response(OK).body(responseBody)
+                Response(OK).with(Product.format of(matchedProduct[0]))
             }
-
             response
         }
     )
-
 )
